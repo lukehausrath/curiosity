@@ -115,4 +115,12 @@ extents = Vector2( 10, 10 )
 11/navigation_offset = Vector2( 4, 4 )
 11/shape_offset = Vector2( 4, 4 )
 11/shapes = [ SubResource( 3 ) ]
+12/name = "island_brick_1x1_1_grass"
+12/texture = ExtResource( 1 )
+12/tex_offset = Vector2( 0, 0 )
+12/region = Rect2( 0, 0, 16, 16 )
+12/occluder_offset = Vector2( 8, 8 )
+12/navigation_offset = Vector2( 8, 8 )
+12/shape_offset = Vector2( 8, 8 )
+12/shapes = [ SubResource( 1 ) ]
 

@@ -1,0 +1,22 @@
+This document contains style goals and other information about the project.
+
+
+************************************
+*********** STYLE RULES ************
+************************************
+
+Naming:
+	Scenes:
+		Capitalized
+		underscores
+	Tilemaps/Textures:
+		Capitalized
+		underscores
+	Vars:
+		camel case
+	Enums:
+		Capitalized
+	Global or const global:
+		All caps
+	Local const:
+		???
