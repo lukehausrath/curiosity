@@ -20,3 +20,14 @@ Naming:
 		All caps
 	Local const:
 		???
+	Nodes:
+		Capitalized
+
+
+		
+Scripting:
+	_ready() function belongs at BOTTOM of any gdscript.
+	Brief comment at top of each script describes its purpose. Placed one line (no double space) above extends.
+	Double space between functions or scopes. Single space for clarifty in functions
+	Double space after member vars in gdscript extension.
+	Single space between const and regular member vars
