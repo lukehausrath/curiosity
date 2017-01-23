@@ -2,6 +2,7 @@
 extends KinematicBody2D
 
 const WALK_SPEED = 50
+const GRAVITY_VEC = Vector2(0, 100)
 
 var velocity = Vector2()
 var animSprite = null
