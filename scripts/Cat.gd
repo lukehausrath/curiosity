@@ -2,8 +2,8 @@
 extends KinematicBody2D
 
 const WALK_SPEED = 50
-const JUMP_VELOCITY = -75
-const GRAVITY = 100
+const JUMP_VELOCITY = -125
+const GRAVITY = 335
 const GRAVITY_ACCEL = 9.8
 
 var velocity = Vector2()
@@ -29,7 +29,7 @@ func _fixed_process(delta):
 	
 	velocity.y += GRAVITY * delta
 	var motion = velocity * delta
-	move(motion)
+	motion = move(motion)
 	
 	if (is_colliding()):
 		var n = get_collision_normal()
